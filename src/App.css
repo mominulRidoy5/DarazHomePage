@@ -9,11 +9,31 @@ box-sizing: border-box;
   font-size: 10px;
 }
 .SubNavText{
-  font-size: 11px;
+  font-size: 10px;
 }
 
 img{
    width: 100%;
+}
+
+.BackgroundImg{
+
+  background-image: url(./assets/logo.jpg);
+height: 140px;
+width: 100%;
+}
+.ToolsBorder{
+  border-top: none;
+  padding-bottom: 10px;
+
+}
+
+.inputText{
+  outline: none;
+  font-size: 10px;
+  border: none;
+  text-decoration: none;
+font-weight:bolder;
 }
 .logo {
   height: 6em;

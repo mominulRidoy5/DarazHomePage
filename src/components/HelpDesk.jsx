@@ -3,12 +3,12 @@ import React from 'react'
 export default function HelpDesk() {
   return (
 <>
-<div className='flex p-2 items-center justify-between'>
+<div className='flex p-3  justify-between'>
 
-<h1 className='text-xl text-gray-600 flex'>Help Center</h1>
+<a className='text-lg font-semibold cursor-pointer text-gray-600 flex'>Help Center</a>
 
-<span className='SubNavText flex text-slate-700 items-center justify-between gap-5'>
-    <a className='hover:text-orange-500' href="">Home Page</a>
+<span className='SubNavText flex text-slate-700  justify-between gap-5'>
+    <a className='hover:text-orange-500 border-orange-600 hover:border-y-2  ToolsBorder' href="">Home Page</a>
     <a className='hover:text-orange-500' href="">FAQ</a>
 </span>
 
