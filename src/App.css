@@ -26,11 +26,6 @@ img{
 height: 140px;
 width: 100%;
 }
-.ToolsBorder{
-  border-top: none;
-  padding-bottom: 10px;
-
-}
 
 .inputText{
   outline: none;
