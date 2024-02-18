@@ -26,7 +26,12 @@ img{
 height: 140px;
 width: 100%;
 }
-
+.borders{
+  border: 1px solid grey;
+}
+.TextSize{
+  font-size: 10px;
+}
 .inputText{
   outline: none;
   font-size: 10px;
