@@ -38,7 +38,7 @@ export function UpperNav() {
 <h1 className='cursor-pointer'>Categories</h1>
 <a className='mt-1  hover:rotate-180'><FaAngleDown/></a>
 </span>
-<span className='flex items-center '>
+<span className='flex items-center'>
   <input className='relative outline-none md:ms-10 text-black sm:w-96 flex p-1.5 rounded-md' placeholder='Search in Daraz' type="text" />
 <h1 className='absolute bg-red-100 text-orange-600 p-1 md:p-0.5 md:ps-2 md:pe-2  rounded-md flex ms-28 sm:ms-96 sm:text-xl'><CiSearch /></h1>
 </span>
