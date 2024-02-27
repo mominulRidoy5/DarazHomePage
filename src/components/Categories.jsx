@@ -6,6 +6,8 @@ import { TbHomeCancel } from 'react-icons/tb'
 import { IoIosPricetag } from 'react-icons/io'
 import { AiFillShopping } from "react-icons/ai";
 import { BsFillBoxSeamFill } from "react-icons/bs"
+import { HiOutlineArrowsRightLeft } from "react-icons/hi2";
+
 
 export default function Categories() {
   return (
@@ -44,11 +46,12 @@ export default function Categories() {
   <h1 className='font-medium text-gray-500'>Payments</h1>
 </span>
 <span  className='hover:bg-slate-100 borders border-gray-200 h-14 w-24 sm:h-20 sm:w-44 m-0.5 sm:pt-4'>
-  <h1 className='inline-block mt-1 sm:mt-0 justify-center items-center text-lg sm:text-2xl bg-red-200 p-0.5 rounded-full'><RiContactsBook2Line/></h1>
+  <h1 className='inline-block sm:mt-0 justify-center items-center text-sm sm:text-2xl text-orange-600 border-2 p-0.5 rounded-full'><HiOutlineArrowsRightLeft/></h1>
   <h1 className='font-medium text-gray-500'>Returns & Refunds</h1>
 </span>
 <span  className='hover:bg-slate-100 borders border-gray-200 h-14 w-24 sm:h-20 sm:w-44 m-0.5 sm:pt-4'>
-  <h1 className='inline-block sm:mt-0 justify-center items-center text-lg sm:text-2xl bg-red-200 p-0.5 rounded-full'><TbHomeCancel/></h1>
+  <h1></h1>
+  <img  className='inline-block borders border-gray-200 sm:mt-0 justify-center items-center text-lg sm:text-2xl  p-0.5 rounded-full mt-1 h-6 w-6 sm:h-8 sm:w-8' src="./src/assets/daraz_with_bg.png" alt="hello" />
   <h1 className='font-medium text-gray-500'>Sell on Daraz</h1>
 </span>
 </div>
