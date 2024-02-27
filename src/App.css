@@ -15,7 +15,6 @@ box-sizing: border-box;
   font-size: 12px;
 }
 
-
 img{
    width: 100%;
 }
@@ -27,7 +26,7 @@ height: 140px;
 width: 100%;
 }
 .borders{
-  border: 1px solid grey;
+  border: 1.5px solid;
 }
 .TextSize{
   font-size: 10px;

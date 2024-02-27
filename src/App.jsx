@@ -5,6 +5,7 @@ import { FaAngleDown, FaGlobe, FaSearch, FaShoppingCart } from "react-icons/fa";
 import HelpDesk from './components/HelpDesk';
 import BuyingForm from './components/BuyingForm';
 import SelfServices from './components/SelfServices';
+import Categories from './components/Categories';
 
 
 export function UpperNav() {
@@ -33,7 +34,7 @@ export function UpperNav() {
 </div>
 
 <div className='SubNavText lg:h-96 bg-orange-600 pb-1 sm:flex inline-block font-semibold text-white justify-around ps-1 pe-1 items-center'>
-     <img className='sm:h-10 sm:w-20 h-5 w-10 inline-block items-center justify-center' src="./src/assets/daraz logo.png" alt="NavbarImg" />
+     <img className='sm:h-10 mt-2 sm:mt-0 sm:w-20 h-5 w-10 inline-block items-center justify-center' src="./src/assets/daraz logo.png" alt="NavbarImg" />
 <span className='flex items-center justify-around gap-1 hover:bg-stone-600 sm:hover:p-1 rounded-md'>
 <h1 className='cursor-pointer'>Categories</h1>
 <a className='mt-1  hover:rotate-180'><FaAngleDown/></a>
@@ -62,6 +63,59 @@ export function UpperNav() {
     <HelpDesk/>
     <BuyingForm/>
     <SelfServices/>
+    <div>
+      <div className='mt-2 font-semibold SubNavText flex justify-center text-gray-600 sm:mt-12'>
+        <p className='border-orange-600 border-b-2 pb-3'>Top Questions</p>
+      </div>
+      <div className='cursor-pointer inline-block sm:flex m-1 justify-between sm:ms-12 sm:me-12 items-center'>
+        <div className='helpDeskText text-gray-600'>
+        <span className='flex items-center gap-1 hover:text-orange-600'>
+          <h1 className='mb-4 text-2xl text-orange-500'>.</h1>
+          <h1>What are the Terms and Conditions for Buy More,Save More?</h1>
+        </span>
+        <span className='flex items-center gap-1 hover:text-orange-600'>
+          <h1 className='mb-4 text-orange-600 text-2xl'>.</h1>
+          <h1>What  are te most common reasons for delivery delays?</h1>
+        </span>
+        <span className='flex items-center gap-1 hover:text-orange-600'>
+          <h1 className='mb-4 text-orange-500 text-2xl'>.</h1>
+          <h1>What are the Refund Timelines?</h1>
+        </span>
+                </div>
+                <div className='helpDeskText text-gray-600'>
+        <span className='flex  items-center  gap-1 hover:text-orange-600'>
+          <h1 className='mb-4 text-orange-500 text-2xl'>.</h1>
+          <h1>What are the Terms and Conditions for Any 3 Bundle?</h1>
+        </span>
+        <span className='flex  items-center gap-1 hover:text-orange-600'>
+          <h1 className='mb-4 text-orange-500 text-2xl'>.</h1>
+          <h1>How do I return my item?</h1>
+        </span>
+        <span className='flex items-center  gap-1 hover:text-orange-600'>
+          <h1 className='mb-4 text-orange-500 text-2xl'>.</h1>
+          <h1>How to use Daraz Collection Point?</h1>
+        </span>
+                </div>
+                <div className='helpDeskText text-gray-600'>
+        <span className='flex items-center  gap-1 hover:text-orange-600'>
+          <h1 className='mb-4 text-orange-500 text-2xl'>.</h1>
+          <h1>What are the 'Delivery Timelines'?</h1>
+        </span>
+        <span className='flex items-center gap-1 hover:text-orange-600'>
+          <h1 className='mb-4 text-orange-500 items-center text-2xl'>.</h1>
+          <h1>How can I cancel my order?</h1>
+        </span>
+        <span className='flex items-center gap-1 hover:text-orange-600'>
+          <h1 className='mb-4 text-orange-500 items-center text-2xl'>.</h1>
+          <h1>What is Mystery Bos(x)?</h1>
+        </span>
+
+
+                </div>
+      </div>
+      
+    </div>
+    <Categories/>
     </div>
 
     </>
