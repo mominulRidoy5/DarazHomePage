@@ -7,6 +7,7 @@ import BuyingForm from './components/BuyingForm';
 import SelfServices from './components/SelfServices';
 import Categories from './components/Categories';
 import VirtualAssistant from './components/VirtualAssistant';
+import EndSite from './components/EndSite';
 
 
 export function UpperNav() {
@@ -118,6 +119,7 @@ export function UpperNav() {
     </div>
     <Categories/>
     <VirtualAssistant/>
+    <EndSite/>
     </div>
 
     </>
