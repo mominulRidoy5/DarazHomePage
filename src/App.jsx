@@ -112,7 +112,6 @@ export function UpperNav() {
           <h1>What is Mystery Bos(x)?</h1>
         </span>
 
-
                 </div>
       </div>
       

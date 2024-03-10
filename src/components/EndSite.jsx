@@ -1,10 +1,11 @@
 import React from 'react'
+import { AiFillFacebook } from 'react-icons/ai'
 
 export default function EndSite() {
   return (
     <>
-    <div className='mt-10 p-5 cursor-auto  bg-gray-200 sm:flex '>
-<div className='sm:w-60  sm:h-screen'>
+    <div className='mt-10 p-5 cursor-auto sm:h-96  bg-gray-200 sm:flex '>
+<div className='sm:w-60'>
     <div className='p-2 cursor-pointer '>
         <h1 className='items-start flex text-orange-600'>Customer Care</h1>
         <p className='SubNavText hover:font-semibold hover:underline flex items-start mt-2'>Help Center</p>
@@ -25,7 +26,7 @@ Program</p>
      
     </div>
 </div>
-<div className='sm:w-60 sm:h-screen'>
+<div className='sm:w-60 '>
     <div className='p-2 cursor-pointer'>
         <h1 className='items-start flex text-orange-600'>Daraz</h1>
         <p className='SubNavText hover:font-semibold hover:underline flex items-start mt-2'>About Daraz</p>
@@ -46,7 +47,7 @@ Program</p>
     </div>
 
 </div>
-<div className='sm:w-60 sm:h-screen pt-2'>
+<div className='sm:w-60 pt-2'>
     <div className='cursor-pointer '>
         <h1 className='items-start flex text-orange-600'>Daraz International</h1>
      <div className='flex items-start gap-5 mt-3'>
@@ -97,16 +98,49 @@ Program</p>
 <img className='h-7 w-12 mt-2 bg-white' src="./src/assets/rocket.png" alt="hello" />
 
     </div>
+    <div className='sm:w-60 pt-2 flex gap-10'>
+<span>
+<h1 className='flex items-start text-orange-600'>Verified by</h1>
+    <img className='h-7 w-12 bg-white' src="./src/assets/pci.png" alt="hello" />
+    </span>
+    <span>
+    <h1 className='flex items-start text-orange-600'>DBID</h1>
+<p className='SubNavText'> Registration ID:</p>
+<p className='SubNavText flex items-start'> 304903094</p>
+    </span>
 </div>
-<div className='sm:h-screen sm:w-60'>
-    <h1>hello Daraz</h1>
-    <h1>hello Daraz</h1>
-    <h1>hello Daraz</h1>
+  
 </div>
+<div className='sm:w-60 pt-2'>
+<h1 className='flex items-start text-orange-600'>Exclusive Deals and Offers!</h1>
+<div className='flex items-start gap-2'>
+<span>
+<img className='h-32 pt-2 pb-2 rounded-md w-24 bg-white' src="./src/assets/qrcode.png" alt="hello" />
 
-        
+</span>
+<span className='h-20 w-20 '>
+<img className='h-11 rounded-md w-20 bg-gray-400 ' src="./src/assets/appstore.png" alt="hello" />
+<img className='h-11 rounded-md w-20 ' src="./src/assets/googleplay.png" alt="hello" />
+<img className='h-10  rounded-md w-20 ' src="./src/assets/appgallery.png" alt="hello" />
+
+</span>
+</div>
+<img className='h-18 w-40 mt-5 ' src="./src/assets/happyshopping.png" alt="hello" />
+
+<div className='mt-5'>
+    <h1 className='flex items-start text-orange-600'>Follow Us</h1>
+<span className='flex items-start gap-3'>
+   <img className='h-6 w-6 rounded-full' src="./src/assets/facebook.png" alt="facebook" />
+   <img className='h-6 w-6 rounded-full ' src="./src/assets/world.png" alt="facebook" />
+   <img className='h-5 w-7 rounded-full mt-0.5' src="./src/assets/youtube.png" alt="facebook" />
+   <img className='h-6 w-6 rounded-full' src="./src/assets/twitter.png" alt="facebook" />
+   <img className='h-6 w-6 ' src="./src/assets/insta.jpeg" alt="facebook" />
+</span>
+</div>
+</div>  
+
     </div>
-    
+
     </>
   )
 }
