@@ -6,30 +6,31 @@ export default function EndSite() {
     <>
     <div className='mt-10 p-5 cursor-auto sm:h-96  bg-gray-200 sm:flex '>
 <div className='sm:w-60'>
-    <div className='p-2 cursor-pointer '>
+    <div className='p-2  '>
         <h1 className='items-start flex text-orange-600'>Customer Care</h1>
-        <p className='SubNavText hover:font-semibold hover:underline flex items-start mt-2'>Help Center</p>
-        <p className='SubNavText  hover:font-semibold hover:underline mt-0.5 flex items-start'>How To Buy</p>
-        <p className='SubNavText  hover:font-semibold hover:underline mt-0.5 flex items-start'>Return & Refunds</p>
-        <p className='SubNavText  hover:font-semibold hover:underline mt-0.5 flex items-start'>Contact Us </p>
-        <p className='SubNavText  hover:font-semibold hover:underline mt-0.5 flex items-start'>Terms & Codtidions</p>
-        <p className='SubNavText   hover:underline mt-0.5 flex items-start sm:break-before-auto sm:-ms-1'>CCMS - Central Complain  Management System</p>
+        <p className='SubNavText cursor-pointer hover:font-semibold hover:underline flex items-start mt-2'>Help Center</p>
+        <p className='SubNavText cursor-pointer  hover:font-semibold hover:underline mt-0.5 flex items-start'>How To Buy</p>
+        <p className='SubNavText cursor-pointer  hover:font-semibold hover:underline mt-0.5 flex items-start'>Return & Refunds</p>
+        <p className='SubNavText cursor-pointer  hover:font-semibold hover:underline mt-0.5 flex items-start'>Contact Us </p>
+        <p className='SubNavText cursor-pointer  hover:font-semibold hover:underline mt-0.5 flex items-start'>Terms & Codtidions</p>
+        <p className='SubNavText cursor-pointer  hover:underline mt-0.5 flex items-start sm:break-before-auto sm:-ms-1'>CCMS - Central Complain  Management System</p>
         
     </div>
-    <div className='p-2 cursor-pointer sm:mt-3 '>
+    <div className='p-2  sm:mt-3 '>
         <h1 className='items-start flex text-orange-600'>Earn With Daraz</h1>
-        <p className='SubNavText hover:font-semibold hover:underline flex items-start'>Daraz University</p>
-        <p className='SubNavText  hover:font-semibold hover:underline mt-0.5 flex items-start'>Sell on Daraz</p>
-        <p className='SubNavText  hover:font-semibold hover:underline mt-0.5 flex items-start'>Code of Conduct</p>
-        <p className='SubNavText hover:font-semibold  hover:underline mt-0.5 flex items-start sm:break-before-auto sm:-ms-1'>Join the Daraz Affliate
+        <p className='SubNavText cursor-pointer hover:font-semibold hover:underline flex items-start'>Daraz University</p>
+        <p className='SubNavText cursor-pointer  hover:font-semibold hover:underline mt-0.5 flex items-start'>Sell on Daraz</p>
+        <p className='SubNavText cursor-pointer  hover:font-semibold hover:underline mt-0.5 flex items-start'>Code of Conduct</p>
+        <p className='SubNavText cursor-pointer hover:font-semibold  hover:underline mt-0.5 flex items-start sm:break-before-auto sm:-ms-1'>Join the Daraz Affliate
 Program</p>
      
     </div>
 </div>
 <div className='sm:w-60 '>
-    <div className='p-2 cursor-pointer'>
+    <div className='p-2'>
         <h1 className='items-start flex text-orange-600'>Daraz</h1>
-        <p className='SubNavText hover:font-semibold hover:underline flex items-start mt-2'>About Daraz</p>
+       <div className='cursor-pointer'>
+       <p className='SubNavText hover:font-semibold hover:underline flex items-start mt-2'>About Daraz</p>
         <p className='SubNavText  hover:font-semibold hover:underline mt-0.5 flex items-start'>Digital Payments</p>
         <p className='SubNavText  hover:font-semibold hover:underline mt-0.5 flex items-start'>Digital Payments</p>
         <p className='SubNavText  hover:font-semibold hover:underline mt-0.5 flex items-start'>Digital Payments</p>
@@ -44,13 +45,14 @@ Program</p>
         <p className='SubNavText  hover:font-semibold hover:underline mt-0.5 flex items-start'>Daraz Exclusives</p>
         <p className='SubNavText  hover:font-semibold hover:underline mt-0.5 flex items-start'>Daraz Donates</p>
         
+       </div>
     </div>
 
 </div>
 <div className='sm:w-60 pt-2'>
-    <div className='cursor-pointer '>
+    <div className=''>
         <h1 className='items-start flex text-orange-600'>Daraz International</h1>
-     <div className='flex items-start gap-5 mt-3'>
+     <div className='flex items-start gap-5 mt-3 cursor-pointer'>
         <span className='flex items-center justify-center gap-1'>
         <img className='h-6 w-6 rounded-full' src="./src/assets/pakistan.jpeg" alt="hello" />
             <p className='SubNavText hover:underline'>Pakistan</p>
@@ -60,7 +62,7 @@ Program</p>
             <p className='SubNavText hover:underline'>Bangladesh</p>
         </span>
      </div>
-     <div className='flex items-start gap-4 mt-2'>
+     <div className='flex cursor-pointer items-start gap-4 mt-2'>
         <span className='flex items-center justify-center gap-1'>
         <img className='h-6 w-6 rounded-full' src="./src/assets/srilanka.png" alt="hello" />
             <p className='SubNavText hover:underline'>Shrilanka</p>
@@ -71,7 +73,7 @@ Program</p>
         <p className='SubNavText hover:underline'>Myanmar</p>
         </span>
      </div>
-     <div className='flex items-start mt-3'>
+     <div className='flex items-start mt-3 cursor-pointer'>
         <span className='flex items-center justify-center gap-1'>
         <img className='h-6 w-6 rounded-full' src="./src/assets/nepal.png" alt="hello" />
             <p className='SubNavText hover:underline'>Nepal</p>
@@ -79,16 +81,16 @@ Program</p>
       
      </div>
     </div>
-    <div className=' cursor-pointer mt-5'>
+    <div className=' mt-5'>
         <h1 className='flex items-start text-orange-600'>Payment Method</h1>
-        <div className='flex  gap-2 mt-2'>
+        <div className='flex  cursor-pointer  gap-2 mt-2'>
 <img className='h-7 w-12 bg-white' src="./src/assets/cashonDelivery.png" alt="hello" />
 <img className='h-7 w-12 bg-white' src="./src/assets/visa.png" alt="hello" />
 <img className='h-7 w-12 bg-white' src="./src/assets/mastercard.png" alt="hello" />
 <img className='h-7 w-12  bg-white' src="./src/assets/american.png" alt="hello" />
 
 </div>
-<div className='flex  gap-2 mt-2'>
+<div className='flex  cursor-pointer  gap-2 mt-2'>
 <img className='h-7 w-12 bg-white' src="./src/assets/installments.png" alt="hello" />
 <img className='h-7 w-12 bg-white' src="./src/assets/bkash.png" alt="hello" />
 <img className='h-7 w-12 bg-white' src="./src/assets/nagad.png" alt="hello" />
